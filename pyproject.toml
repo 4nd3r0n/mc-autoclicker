@@ -1,0 +1,16 @@
+[project]
+name = "mc-autoclick"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["flet==0.25.0.dev3721", "pynput==1.7.7"]
+
+[tool.flet]
+org = "org.mcautoclick.anderongames"
+product = "mc-autoclick"
+company = "AnderonGames"
+copyright = "Copyright (C) 2024 by AnderonGames"
+
+[tool.flet.app]
+path = "src"
